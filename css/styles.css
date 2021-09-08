@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .nav li {
     display: inline;
     position:sticky;
@@ -6,7 +10,7 @@
 
 .nav a {
     display: inline-block;
-    padding: .5em;
+    padding: 1em;
     color:white;
 }
 
@@ -16,6 +20,7 @@
     word-spacing: 100px;
     position:sticky;
     top: 0;
+    margin-left:50px;
 }
 
 .menu-image {
@@ -28,6 +33,10 @@
 
 .league-image {
     width: 500px;
+    border-radius:10%;
+    border-color:black;
+    border-width: .3em;
+    border: solid;
 }
 
 h1 {
@@ -42,7 +51,7 @@ nav {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -77,6 +86,8 @@ li a:hover {
     background-size: cover;
     height:61px;
     background-blend-mode: multiply;
+    margin-bottom: 10px;
+    box-shadow: 0px 5px 15px #777777;
 }
 /*    background: url("https://www.gamingnation.nl/wp-content/uploads/2019/10/league-of-legends.jpg") left, url("https://vmh-hbo.nl/wp-content/uploads/2018/06/hz-logo-300x300.jpg") right;*/
 body {
@@ -87,11 +98,23 @@ body {
     padding: 0;
 }
 
+footer {
+    position:static;
+    bottom:0;
+    text-align:center;
+}
+
 .homepage {
-    size: 50px;
+    height:61px;
     font-size: larger;
     font-family:Arial, Helvetica, sans-serif;
 }
+
+.homepage li {
+    display: inline;
+    margin: 0% 3%;
+}
+
 /*Dropdown menu*/
 .dropbtn {
     background-color: #04AA6D;
@@ -134,3 +157,47 @@ body {
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/*Profile page design*/
+  .profiletextpersonal {
+    background-color:lightgray;
+    border-color:black;
+    border-width: .3em;
+    text-align: center;
+    max-width: 50%;
+    border-radius:20px;
+    border:solid;
+    left:20%;
+  }
+
+  .profiletexthobby {
+    background-color:lightgray;
+    border-color:black;
+    border-width: .3em;
+    text-align: center;
+    max-width: 75%;
+    border-radius:20px;
+    border:solid;
+  }
+
+  /*Index page layout*/
+  .layoutoverall img {
+      width:19.75%;
+      transition: width 2s;
+      height: 727px;
+      box-shadow: 0px 0px 20px black;
+      background-color:rgba(0, 0, 0, .6);
+      background-blend-mode: cover;
+      margin-bottom:0;
+  }
+
+  .layoutoverall img:hover {
+      height:735px;
+  }
+
+  /*dashboard page layout*/
+  aside {
+      display: inline;
+      right: 0px;
+      text-align: center;
+  }
