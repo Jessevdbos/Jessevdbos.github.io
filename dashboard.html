@@ -10,10 +10,10 @@
 </head>
 
 <body>
-    <header class="main-headers">
+    <header class="headerwithbackground">
         <div class="dropdown">
             <button class="dropbtn"><img class="menu-image"
-                src="https://mpng.subpng.com/20180628/zaz/kisspng-computer-icons-hamburger-button-menu-new-menu-5b34724be5a1f0.5796308115301637879406.jpg"></button>
+                src="img\HZ Logo.jpg"></button>
             <div class="dropdown-content">
               <a href="https://hz.nl/over-de-hz/regelingen-documenten-1/onderwijs-en-examenregelingen" target=_blank>Onderwijs en Examenregelingen</a>
               <a href="https://hz.nl/uploads/documents/Regelingen/NL/Uitvoeringsregeling-OER-HBO-ICT-Voltijd-2019-2020.pdf" target=_blank>Uitvoeringsregeling HBO-ICT</a>
@@ -32,29 +32,30 @@
                 <li><a href="blog.html">Blog</a></li>
             </ul>
         </nav>
-        <br>
         <h1>Dashboard page</h1>
     </header>
-    <br>
-    <main>
-        <div>
-            <p>Try out for the aside menu</p>
-        </div>
+
+    <div class="full-height">
+        <article>
+            Hier plaats ik later nog wat. Voor nu test ik het aside menu
+        </article>
         <aside>
             <ul>
                 <li>
-                    <a href="https://hz.nl/over-de-hz/regelingen-documenten-1/onderwijs-en-examenregelingen" target=_blank>Onderwijs
-                    en Examenregelingen</a>
+                    <a href="https://hz.nl/over-de-hz/regelingen-documenten-1/onderwijs-en-examenregelingen"
+                        target=_blank>Onderwijs
+                        en Examenregelingen</a>
                 </li>
                 <li>
                     <a href="https://hz.nl/uploads/documents/Regelingen/NL/Uitvoeringsregeling-OER-HBO-ICT-Voltijd-2019-2020.pdf"
-                    target=_blank>Uitvoeringsregeling HBO-ICT</a>
+                        target=_blank>Uitvoeringsregeling HBO-ICT</a>
                 </li>
                 <li>
                     <a href="https://learn.hz.nl/my/" target=_blank>Learn.hz.nl</a>
                 </li>
                 <li>
-                    <a href="https://teams.microsoft.com/l/team/19%3a827654897ab746089c081f24aff1c984%40thread.skype/conversations?groupId=337e8cca-f67d-4132-9fa9-b0c761bbeb94&tenantId=4c16deb3-342d-4fca-bcd5-b1429308034c">Teams</a>
+                    <a
+                        href="https://teams.microsoft.com/l/team/19%3a827654897ab746089c081f24aff1c984%40thread.skype/conversations?groupId=337e8cca-f67d-4132-9fa9-b0c761bbeb94&tenantId=4c16deb3-342d-4fca-bcd5-b1429308034c">Teams</a>
                 </li>
                 <li>
                     <a href="https://apps.hz.nl/angular/studievoortgang/studiestatus" target=_blank>Studievoortgang</a>
@@ -64,71 +65,93 @@
                 </li>
             </ul>
         </aside>
-        <table>
-            <tr>
-                <th scope="col">vak</th>
-                <th scope="col">toelichting</th>
-                <th scope="col">Aantal EC</th>
-                <th scope="col">Cijfer</th>
-                <th scope="col">Gehaald/niet gehaald</th>
-            </tr>
-            <tr>
-                <th scope="row">Opleidings- en beroepsoriëntatie (OBO)</th>
-            </tr>
-            <tr>
-                <th scope="row">Computer science basics (CBA)</th>
-            </tr>
-            <tr>
-                <th scope="row">Programming basics (PBA)</th>
-            </tr>
-            <tr>
-                <th scope="row">Professional skills 1 (PSK1)</th>
-            </tr>
-            <tr>
-                <th scope="row">HZ Personality 1 (HZP1)</th>
-            </tr>
-            <tr>
-                <th scope="row">Object-oriented programming (OPR)</th>
-            </tr>
-            <tr>
-                <th scope="row">Professional skills 2 (PSK2) </th>
-            </tr>
-            <tr>
-                <th scope="row">Professionele werkplek (PWE) </th>
-            </tr>
-            <tr>
-                <th scope="row">Framework development 1 (FDE1) </th>
-            </tr>
-            <tr>
-                <th scope="row">Framework project 1 (FPR1) </th>
-            </tr>
-            <tr>
-                <th scope="row">Professional skills 3 (PSK3)</th>
-            </tr>
-            <tr>
-                <th scope="row">IT Personality 1 (ITP1) </th>
-            </tr>
-            <tr>
-                <th scope="row">Framework development 2 (FDE2) </th>
-            </tr>
-            <tr>
-                <th scope="row">Framework project 2 (FPR2) </th>
-            </tr>
-            <tr>
-                <th><br></th>
-                <td><br></td>
-                <td><br></td>
-                <td><br></td>
-                <td><br></td>
-                <td><br></td>
-            </tr>
-            <tr>
-                <th scope="row">NBSA</th>
-                <td>Gehaald</td>
-                <td>Niet gehaald</td>
-            </tr>
-        </table>
+    </div>
+
+    <main class="dashboard-main">
+        <div class="full-height">
+            <table>
+                <tr>
+                    <th scope="col">vak</th>
+                    <th scope="col">toelichting</th>
+                    <th scope="col">Aantal EC</th>
+                    <th scope="col">Cijfer</th>
+                    <th scope="col">Gehaald/niet gehaald</th>
+                </tr>
+                <tr>
+                    <th scope="row">Opleidings- en beroepsoriëntatie (OBO)</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <form>
+                            <label for="OBOinput">Grade</label>
+                            <input type="number" id="OBOinput" name="OBOinput">
+                            <input type="submit" name="submit">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">Computer science basics (CBA)</th>
+                </tr>
+                <tr>
+                    <th scope="row">Programming basics (PBA)</th>
+                </tr>
+                <tr>
+                    <th scope="row">Professional skills 1 (PSK1)</th>
+                </tr>
+                <tr>
+                    <th scope="row">HZ Personality 1 (HZP1)</th>
+                </tr>
+                <tr>
+                    <th scope="row">Object-oriented programming (OPR)</th>
+                </tr>
+                <tr>
+                    <th scope="row">Professional skills 2 (PSK2) </th>
+                </tr>
+                <tr>
+                    <th scope="row">Professionele werkplek (PWE) </th>
+                </tr>
+                <tr>
+                    <th scope="row">Framework development 1 (FDE1) </th>
+                </tr>
+                <tr>
+                    <th scope="row">Framework project 1 (FPR1) </th>
+                </tr>
+                <tr>
+                    <th scope="row">Professional skills 3 (PSK3)</th>
+                </tr>
+                <tr>
+                    <th scope="row">IT Personality 1 (ITP1) </th>
+                </tr>
+                <tr>
+                    <th scope="row">Framework development 2 (FDE2) </th>
+                </tr>
+                <tr>
+                    <th scope="row">Framework project 2 (FPR2) </th>
+                </tr>
+                <tr>
+                    <th><br></th>
+                    <td><br></td>
+                    <td><br></td>
+                    <td><br></td>
+                    <td><br></td>
+                    <td><br></td>
+                </tr>
+                <tr>
+                    <th scope="row">NBSA</th>
+                    <td>Gehaald</td>
+                    <td>Niet gehaald</td>
+                </tr>
+            </table>
+        </div>
     </main>
+        
 </body>
+
+<footer>
+    <a href="#top"><h2 class="footerhome">Dashboard</h2></a>
+</footer>
 
 </html>
