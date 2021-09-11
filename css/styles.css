@@ -180,13 +180,13 @@ footer {
 
                                                     /*Design background layout*/
 .bckgrounddesignindex {
-    background-image: url("https://a-static.besthdwallpaper.com/nautilus-splash-art-league-of-legends-lol-wallpaper-65039_L.jpg");
+    background-image: url("https://wallpaper.dog/large/19025.jpg");
     background-size:cover;
     opacity: 100%;
 }
 
 .bckgrounddesign {
-    background-image: url("https://a-static.besthdwallpaper.com/nautilus-splash-art-league-of-legends-lol-wallpaper-65039_L.jpg");
+    background-image: url("https://wallpaper.dog/large/19025.jpg");
     background-size:cover;
     opacity: 100%;
 }
@@ -210,7 +210,7 @@ footer {
 }
 
 footer {
-    background-color:rgba(24, 207, 183, 0.603);
+    background-color:rgba(0, 0, 0, .6);
     background-size:cover;
     height:61px;
     background-blend-mode: multiply;
@@ -335,7 +335,7 @@ aside {
       margin-bottom:50px;
   }
 
-                                                    /*dashboard table design*/
+                                                    /*table design*/
 td, th {
       border: 1px solid rgb(190, 190, 190);
       padding: 10px;
@@ -346,8 +346,12 @@ td {
   }
   
 tr:nth-child(even) {
-      background-color: #eee;
+      background-color: white;
   }
+
+  tr:nth-child(odd) {
+    background-color: lightgray;
+}
   
 th[scope="col"] {
       background-color: #696969;
