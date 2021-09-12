@@ -1,0 +1,100 @@
+/* ---- blog page ---- */
+.blogarticle {
+    background-color:lightgray;
+    border-color:black;
+    border-width: .3em;
+    text-align: center;
+    max-width: 50%;
+    margin-left:1%;
+    border-radius:20px;
+    border:solid;
+    left:20%;
+    margin-bottom:1%;
+    padding:1%;
+  }
+
+.blogarticle2 {
+    background-color:lightgray;
+    border-color: black;
+    border-width: .3em;
+    text-align: center;
+    max-width: 50%;
+    margin-left:1%;
+    border-radius:20px;
+    border:solid;
+    position:relative;
+    left:40%;
+    top:50%;
+    margin-bottom:1%;
+    padding:1%;
+  }
+
+.swot {
+    background-color:lightgray;
+    border-color: black;
+    border-width: .3em;
+    text-align: center;
+    width: 50%;
+    border-radius:20px;
+    border:solid;
+    position:inherit;
+    margin:1%;
+    padding:1%;
+}
+
+.studiekeuze {
+    background-color:lightgray;
+    border-color: black;
+    border-width: .3em;
+    text-align: center;
+    width: 50%;
+    border-radius:20px;
+    border:solid;
+    position:inherit;
+    margin-top:10%;
+    margin-bottom:1%;
+}
+
+.programmeerervaring {
+    background-color: lightgray;
+    border-color: black;
+    border-width: .3em;
+    text-align: center;
+    width: 50%;
+    border-radius:20px;
+    border:solid;
+    position:inherit;
+    margin-top:1%;
+    margin-bottom:1%;
+    padding:1%;
+}
+
+.studiekeuze img {
+    background-color:lightgray;
+    border-color:black;
+    border-width: .3em;
+    max-width: 50%;
+    border-radius:20px;
+    border:solid;
+    height:70%;
+    position: relative;
+    right: 3%;
+    padding: 3px;
+}
+
+.ictpost {
+    background-color:lightgray;
+    border-color:black;
+    border-width: .3em;
+    text-align: center;
+    max-width: 45%;
+    border-radius:20px;
+    border:solid;
+    position:absolute;
+    left:5%;
+    top:20%
+}
+
+.blogposts {
+    margin-left:1%;
+}

@@ -1,0 +1,103 @@
+/* ---- Profile page design ---- */
+.profiletextpersonal {
+    background-color:lightgray;
+    border-color:black;
+    border-width: .3em;
+    text-align: center;
+    max-width: 40%;
+    border-radius:20px;
+    border:solid;
+    position:absolute;
+    left:5%;
+    top:20%;
+    padding:1%;
+  }
+
+#me-picture {
+    background-color:lightgray;
+    border-color:black;
+    border-width: .3em;
+    max-width:50%;
+    max-height:50%;
+    border-radius:20px;
+    border:solid;
+    position: absolute;
+    right: 5%;
+    top: 30%;
+    padding: .3em;
+  }
+
+.profiletexthobby {
+    background-color:lightgray;
+    border-color:black;
+    border-width: .3em;
+    text-align: center;
+    max-width: 45%;
+    border-radius:20px;
+    border:solid;
+    position:absolute;
+    right:5%;
+    top:100%;
+    padding:1%;
+  }
+  
+.league-image {
+    background-color:lightgray;
+    width: 40%;
+    border-radius:10%;
+    border-color:black;
+    border-width: .3em;
+    border: solid;
+    padding: .3em;
+    position:absolute;
+    left:5%;
+    top:120%;
+}
+
+.characteristics {
+    background-color:lightgray;
+    border-color:black;
+    border-width: .3em;
+    text-align: center;
+    width: 40%;
+    border-radius:20px;
+    border:solid;
+    position:absolute;
+    left: 5%;
+    top:80%;
+  }
+
+  .characteristics li {
+      text-align: left;
+  }
+
+.fateseries {
+    background-color:lightgray;
+    max-width: 45%;
+    max-height:45%;
+    border-radius:10%;
+    border-color:black;
+    border-width: .3em;
+    border: solid;
+    padding: .3em;
+    position:absolute;
+    right:5%;
+    top:160%;
+}
+
+.animelist {
+    background-color:lightgray;
+    border-color:black;
+    border-width: .3em;
+    text-align: center;
+    width: 40%;
+    border-radius:20px;
+    border:solid;
+    position:absolute;
+    left: 5%;
+    top:180%;
+}
+
+.animelist li {
+    text-align:left;
+}

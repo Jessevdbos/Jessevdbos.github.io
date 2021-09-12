@@ -3,13 +3,14 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css\dashboard.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Profile</title>
 </head>
 
-<body class="bckgrounddesign">
+<body class="bckgrounddesign full-height">
     <header class="indexprofileheader">
         <div class="dropdown">
             <button class="dropbtn"><img class="menu-image"
@@ -26,53 +27,19 @@
         <nav class="nav">
             <ul class="homepage">
                 <li><a href="profile.html">Profile</a></li>
-                <li><a href="dashboard.html">Dashboard</a></li>
+                <li id="active"><a href="dashboard.html">Dashboard</a></li>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="faq.html">FAQ</a></li>
                 <li><a href="blog.html">Blog</a></li>
             </ul>
         </nav>
-        <h1>Dashboard page</h1>
     </header>
 
-    <div class="full-height">
-        <article>
-            Hier plaats ik later nog wat. Voor nu test ik het aside menu
-        </article>
-        <aside>
-            <ul>
-                <li>
-                    <a href="https://hz.nl/over-de-hz/regelingen-documenten-1/onderwijs-en-examenregelingen"
-                        target=_blank>Onderwijs
-                        en Examenregelingen</a>
-                </li>
-                <li>
-                    <a href="https://hz.nl/uploads/documents/Regelingen/NL/Uitvoeringsregeling-OER-HBO-ICT-Voltijd-2019-2020.pdf"
-                        target=_blank>Uitvoeringsregeling HBO-ICT</a>
-                </li>
-                <li>
-                    <a href="https://learn.hz.nl/my/" target=_blank>Learn.hz.nl</a>
-                </li>
-                <li>
-                    <a
-                        href="https://teams.microsoft.com/l/team/19%3a827654897ab746089c081f24aff1c984%40thread.skype/conversations?groupId=337e8cca-f67d-4132-9fa9-b0c761bbeb94&tenantId=4c16deb3-342d-4fca-bcd5-b1429308034c">Teams</a>
-                </li>
-                <li>
-                    <a href="https://apps.hz.nl/angular/studievoortgang/studiestatus" target=_blank>Studievoortgang</a>
-                </li>
-                <li>
-                    <a href="https://github.com/HZ-HBO-ICT" target=_blank>Github HBO-ICT</a>
-                </li>
-            </ul>
-        </aside>
-    </div>
-
     <main class="dashboard-main">
-        <div class="full-height">
+        <div>
             <table>
                 <tr>
-                    <th scope="col">vak</th>
-                    <th scope="col">toelichting</th>
+                    <th scope="col">Curses</th>
                     <th scope="col">Aantal EC</th>
                     <th scope="col">Cijfer</th>
                     <th scope="col">Gehaald/niet gehaald</th>
@@ -82,18 +49,14 @@
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>
-                        <form>
-                            <label for="OBOinput">Grade</label>
-                            <input type="number" id="OBOinput" name="OBOinput">
-                            <input type="submit" name="submit">
-                        </form>
-                    </td>
                 </tr>
                 <tr>
                     <th scope="row">Computer science basics (CBA)</th>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <th scope="row">Object-oriented programming (OPR)</th>
+                    <td>10</td>
                 </tr>
                 <tr>
                     <th scope="row">Programming basics (PBA)</th>
@@ -104,9 +67,7 @@
                 <tr>
                     <th scope="row">HZ Personality 1 (HZP1)</th>
                 </tr>
-                <tr>
-                    <th scope="row">Object-oriented programming (OPR)</th>
-                </tr>
+                
                 <tr>
                     <th scope="row">Professional skills 2 (PSK2) </th>
                 </tr>
@@ -136,8 +97,6 @@
                     <td><br></td>
                     <td><br></td>
                     <td><br></td>
-                    <td><br></td>
-                    <td><br></td>
                 </tr>
                 <tr>
                     <th scope="row">NBSA</th>
@@ -147,7 +106,36 @@
             </table>
         </div>
     </main>
-        
+
+    <div>
+        <aside>
+            <h1>Interessante links</h1>
+            <ul>
+                <li>
+                    <a href="https://hz.nl/over-de-hz/regelingen-documenten-1/onderwijs-en-examenregelingen"
+                        target=_blank>Onderwijs
+                        en Examenregelingen</a>
+                </li>
+                <li>
+                    <a href="https://hz.nl/uploads/documents/Regelingen/NL/Uitvoeringsregeling-OER-HBO-ICT-Voltijd-2019-2020.pdf"
+                        target=_blank>Uitvoeringsregeling HBO-ICT</a>
+                </li>
+                <li>
+                    <a href="https://learn.hz.nl/my/" target=_blank>Learn.hz.nl</a>
+                </li>
+                <li>
+                    <a
+                        href="https://teams.microsoft.com/l/team/19%3a827654897ab746089c081f24aff1c984%40thread.skype/conversations?groupId=337e8cca-f67d-4132-9fa9-b0c761bbeb94&tenantId=4c16deb3-342d-4fca-bcd5-b1429308034c">Teams</a>
+                </li>
+                <li>
+                    <a href="https://apps.hz.nl/angular/studievoortgang/studiestatus" target=_blank>Studievoortgang</a>
+                </li>
+                <li>
+                    <a href="https://github.com/HZ-HBO-ICT" target=_blank>Github HBO-ICT</a>
+                </li>
+            </ul>
+        </aside>
+    </div>   
 </body>
 
 <footer>
