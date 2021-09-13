@@ -96,6 +96,32 @@
     top:20%
 }
 
+.programmeerervaring img {
+    background-color:lightgray;
+    border-color:black;
+    border-width: .3em;
+    max-width: 50%;
+    border-radius:20px;
+    border:solid;
+    height:70%;
+    position: relative;
+    right: 3%;
+    padding: 3px;
+}
+
+.swot img {
+    background-color:lightgray;
+    border-color:black;
+    border-width: .3em;
+    max-width: 50%;
+    border-radius:20px;
+    border:solid;
+    height:70%;
+    position: relative;
+    right: 3%;
+    padding: 3px;
+}
+
 .blogposts {
     margin-left:1%;
 }

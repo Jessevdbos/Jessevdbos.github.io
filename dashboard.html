@@ -16,12 +16,12 @@
             <button class="dropbtn"><img class="menu-image"
                 src="img\HZ Logo.jpg"></button>
             <div class="dropdown-content">
-              <a href="https://hz.nl/over-de-hz/regelingen-documenten-1/onderwijs-en-examenregelingen" target=_blank>Onderwijs en Examenregelingen</a>
-              <a href="https://hz.nl/uploads/documents/Regelingen/NL/Uitvoeringsregeling-OER-HBO-ICT-Voltijd-2019-2020.pdf" target=_blank>Uitvoeringsregeling HBO-ICT</a>
-              <a href="https://learn.hz.nl/my/" target=_blank>Learn.hz.nl</a>
-              <a href="https://teams.microsoft.com/l/team/19%3a827654897ab746089c081f24aff1c984%40thread.skype/conversations?groupId=337e8cca-f67d-4132-9fa9-b0c761bbeb94&tenantId=4c16deb3-342d-4fca-bcd5-b1429308034c">Teams</a>
-              <a href="https://apps.hz.nl/angular/studievoortgang/studiestatus" target=_blank>Studievoortgang</a>
-              <a href="https://github.com/HZ-HBO-ICT" target=_blank>Github HBO-ICT</a>
+                <a href="https://hz.nl/over-de-hz/regelingen-documenten-1/onderwijs-en-examenregelingen" target=_blank>Onderwijs en Examenregelingen</a>
+                <a href="https://hz.nl/uploads/documents/Regelingen/NL/Uitvoeringsregeling-OER-HBO-ICT-Voltijd-2019-2020.pdf" target=_blank>Uitvoeringsregeling HBO-ICT</a>
+                <a href="https://learn.hz.nl/my/" target=_blank>Learn.hz.nl</a>
+                <a href="https://teams.microsoft.com/l/team/19%3a827654897ab746089c081f24aff1c984%40thread.skype/conversations?groupId=337e8cca-f67d-4132-9fa9-b0c761bbeb94&tenantId=4c16deb3-342d-4fca-bcd5-b1429308034c">Teams</a>
+                <a href="https://apps.hz.nl/angular/studievoortgang/studiestatus" target=_blank>Studievoortgang</a>
+                <a href="https://github.com/HZ-HBO-ICT" target=_blank>Github HBO-ICT</a>
             </div>
         </div>
         <nav class="nav">
@@ -46,24 +46,28 @@
                     <th scope="col">Aantal EC</th>
                     <th scope="col">Cijfer</th>
                     <th scope="col">Exam</th>
+                    <th scope="col" hidden>Hidden EC</th>
                 </tr>
                 <tr>
                     <th scope="row">Program- & Career Orientation (OBO)</th>
                     <td>2,5</td>
                     <td></td>
                     <td>Assessment exam</td>
+                    <td class="countableEC" hidden></td>
                 </tr>
                 <tr>
                     <th scope="row">Computer science basics (CBA)</th>
                     <td>5</td>
                     <td></td>
                     <td>Written exam</td>
+                    <td class="countableEC" hidden></td>
                 </tr>
                 <tr>
                     <th scope="row">Programming basics (PBA)</th>
                     <td>5</td>
                     <td></td>
                     <td>Case study exam</td>
+                    <td class="countableEC" hidden></td>
                 </tr>
 
                 <tr>
@@ -74,6 +78,7 @@
                     <td rowspan="2">10</td>
                     <td></td>
                     <td>Case study</td>
+                    <td class="countableEC" hidden></td>
                 </tr>
                 <tr>
                     <td></td>
@@ -88,13 +93,15 @@
                     <td>5</td>
                     <td></td>
                     <td>Case study</td>
+                    <td class="countableEC" hidden></td>
                 </tr>
                 <tr>
-                    
+
                     <th scope="row" rowspan="3">Framework project 1 (FPR1) </th>
                     <td rowspan="3">7,5</td>
                     <td></td>
                     <td>Project</td>
+                    <td class="countableEC" hidden></td>
                 </tr>
                 <tr>
                     <td></td>
@@ -113,6 +120,7 @@
                     <td rowspan="3">10</td>
                     <td></td>
                     <td>Portfolio</td>
+                    <td class="countableEC" hidden></td>
                 </tr>
                 <tr>
                     <td></td>
@@ -124,13 +132,14 @@
                 </tr>
 
                 <tr>
-                    <th scope="col" colspan="4">the entire year</th>
+                    <th scope="col" colspan="4">Personal Professional Development Exploration</th>
                 </tr>
                 <tr>
-                    <th scope="row">the entire year</th>
+                    <th scope="row">Personal Professional Development Exploration (PPDE)</th>
                     <td>12,5</td>
                     <td></td>
                     <td>Portfolio</td>
+                    <td class="countableEC" hidden></td>
                 </tr>
 
                 <tr>
@@ -141,23 +150,25 @@
                     <td>1,25</td>
                     <td></td>
                     <td>Personality</td>
+                    <td class="countableEC" hidden></td>
                 </tr>
                 <tr>
                     <th scope="row">Personality 2</th>
                     <td>1,25</td>
                     <td></td>
                     <td>Personality</td>
+                    <td class="countableEC" hidden></td>
                 </tr>
-                
-                
+
+
                 <tr>
                     <th scope="col" colspan="4">Extra</th>
                 </tr>
                 <tr>
-                    <th scope="row">NBSA</th>
-                    <td></td>
-                    <td>Gehaald</td>
-                    <td>Niet gehaald</td>
+                    <th scope="row">BSA</th>
+                    <td id="finalEC">0</td>
+                    <td id="passed">Gehaald</td>
+                    <td id="notpassed">Niet gehaald</td>
                 </tr>
             </table>
         </div>
@@ -168,20 +179,17 @@
             <h1>Interessante links</h1>
             <ul>
                 <li>
-                    <a href="https://hz.nl/over-de-hz/regelingen-documenten-1/onderwijs-en-examenregelingen"
-                        target=_blank>Onderwijs
+                    <a href="https://hz.nl/over-de-hz/regelingen-documenten-1/onderwijs-en-examenregelingen" target=_blank>Onderwijs
                         en Examenregelingen</a>
                 </li>
                 <li>
-                    <a href="https://hz.nl/uploads/documents/Regelingen/NL/Uitvoeringsregeling-OER-HBO-ICT-Voltijd-2019-2020.pdf"
-                        target=_blank>Uitvoeringsregeling HBO-ICT</a>
+                    <a href="https://hz.nl/uploads/documents/Regelingen/NL/Uitvoeringsregeling-OER-HBO-ICT-Voltijd-2019-2020.pdf" target=_blank>Uitvoeringsregeling HBO-ICT</a>
                 </li>
                 <li>
                     <a href="https://learn.hz.nl/my/" target=_blank>Learn.hz.nl</a>
                 </li>
                 <li>
-                    <a
-                        href="https://teams.microsoft.com/l/team/19%3a827654897ab746089c081f24aff1c984%40thread.skype/conversations?groupId=337e8cca-f67d-4132-9fa9-b0c761bbeb94&tenantId=4c16deb3-342d-4fca-bcd5-b1429308034c">Teams</a>
+                    <a href="https://teams.microsoft.com/l/team/19%3a827654897ab746089c081f24aff1c984%40thread.skype/conversations?groupId=337e8cca-f67d-4132-9fa9-b0c761bbeb94&tenantId=4c16deb3-342d-4fca-bcd5-b1429308034c">Teams</a>
                 </li>
                 <li>
                     <a href="https://apps.hz.nl/angular/studievoortgang/studiestatus" target=_blank>Studievoortgang</a>
@@ -191,11 +199,14 @@
                 </li>
             </ul>
         </aside>
-    </div>   
+    </div>
+    <script src="js/dashboard.js"></script>
 </body>
 
 <footer id="dbbottom">
-    <a href="#top"><h2 class="footerhome">Dashboard</h2></a>
+    <a href="#top">
+        <h2 class="footerhome">Dashboard</h2>
+    </a>
 </footer>
 
 </html>
