@@ -7,8 +7,8 @@
     max-width: 40%;
     border-radius:20px;
     border:solid;
-    position:absolute;
-    left:5%;
+    position:initial;
+    margin:1%;
     top:20%;
     padding:1%;
   }
@@ -37,7 +37,7 @@
     border:solid;
     position:absolute;
     right:5%;
-    top:100%;
+    top:110%;
     padding:1%;
   }
   
@@ -49,8 +49,8 @@
     border-width: .3em;
     border: solid;
     padding: .3em;
-    position:absolute;
-    left:5%;
+    position:initial;
+    margin:1%;
     top:120%;
 }
 
@@ -62,8 +62,8 @@
     width: 40%;
     border-radius:20px;
     border:solid;
-    position:absolute;
-    left: 5%;
+    position:initial;
+    margin:1%;
     top:80%;
   }
 
@@ -94,8 +94,8 @@
     border-radius:20px;
     border:solid;
     position:absolute;
-    left: 5%;
-    top:180%;
+    left: 1%;
+    top:170%;
 }
 
 .animelist li {
