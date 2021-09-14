@@ -7,6 +7,38 @@ body {
     height: 100%;
 }
 
+h1 {
+    color: red;
+}
+
+p {
+    color: rgb(1, 1, 1);
+}
+
+body {
+    background: url("../afbeeldingen website/IMG_20181204_214347_007.jpg") no-repeat center center fixed;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding-bottom: 75px;
+}
+
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
+}
+
 .nav li {
     display: inline;
     position: sticky;
@@ -28,38 +60,6 @@ body {
     margin-left: 50px;
 }
 
-#active {
-    background-color: red;
-}
-
-.menu-image {
-    width: 40px;
-    height: 40px;
-    position: sticky;
-    left: 0;
-    border-radius: 25%;
-}
-
-h1 {
-    color: red;
-}
-
-p {
-    color: rgb(1, 1, 1);
-}
-
-nav {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    position: sticky;
-    top: 0;
-}
-
 li {
     float: none;
 }
@@ -77,29 +77,22 @@ li a:hover {
     color: black;
 }
 
-.active {
+#active {
+    background-color: red;
+}
+
+
+/* .active {
     background-color: lightgray;
-}
+} */
 
-.indexprofileheader {
-    background-color: rgba(0, 0, 0, .6);
-    background-size: cover;
-    height: 61px;
-    background-blend-mode: multiply;
-    margin-bottom: 10px;
-    box-shadow: 0px 5px 15px #777777;
-}
-
-header {
-    padding-bottom: 75px;
-}
-
-body {
-    background: url("../afbeeldingen website/IMG_20181204_214347_007.jpg") no-repeat center center fixed;
-    background-size: 500px;
-    background-repeat: no-repeat;
-    margin: 0;
-    padding: 0;
+.menu-image {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 0;
+    border-radius: 25%;
+    margin-top: 10%;
 }
 
 .homepage {
@@ -170,29 +163,27 @@ body {
     opacity: 100%;
 }
 
+.navigationheader {
+    background-color: rgba(0, 0, 0, .6);
+    background-size: cover;
+    height: 61px;
+    background-blend-mode: multiply;
+    margin-bottom: 10px;
+    box-shadow: 0px 5px 15px #777777;
+}
+
 .bckgrounddesign {
     background-image: url("https://wallpaper.dog/large/19025.jpg");
     background-size: cover;
     opacity: 100%;
 }
 
-.bos {
-    margin-left: 10%;
-    margin-top: 30%;
-    color: white;
-    font-size: 100px;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: rgba(0, 0, 0, .6);
-    border: solid;
-    border-radius: 20%;
-    max-width: 10%;
-    padding-left: 1%;
-    padding-right: 1%;
-}
-
 .full-height {
     height: 100%;
 }
+
+
+/* twee footer css voor vormgeving */
 
 footer {
     background-color: rgba(0, 0, 0, .6);
@@ -203,7 +194,7 @@ footer {
     text-align: center;
 }
 
-.footerhome {
+.footerdesign {
     list-style-type: none;
     text-decoration: none;
     bottom: 0;

@@ -1,59 +1,60 @@
 /* ---- blog page ---- */
-.blogarticle {
-    background-color:lightgray;
-    border-color:black;
-    border-width: .3em;
-    text-align: center;
-    max-width: 50%;
-    margin-left:1%;
-    border-radius:20px;
-    border:solid;
-    position:inherit;
-    left:1%;
-    margin-bottom:1%;
-    padding:1%;
-  }
 
-.blogarticle2 {
-    background-color:lightgray;
+.blogarticle {
+    background-color: lightgray;
     border-color: black;
     border-width: .3em;
     text-align: center;
     max-width: 50%;
-    margin-left:1%;
-    border-radius:20px;
-    border:solid;
-    position:relative;
-    left:40%;
-    top:50%;
-    margin-bottom:1%;
-    padding:1%;
-  }
+    margin-left: 1%;
+    border-radius: 20px;
+    border: solid;
+    position: inherit;
+    left: 1%;
+    margin-bottom: 1%;
+    padding: 1%;
+}
+
+.blogsection {
+    background-color: lightgray;
+    border-color: black;
+    border-width: .3em;
+    text-align: center;
+    max-width: 50%;
+    margin-left: 1%;
+    border-radius: 20px;
+    border: solid;
+    position: relative;
+    left: 40%;
+    top: 50%;
+    margin-bottom: 1%;
+    padding: 1%;
+}
 
 .swot {
-    background-color:lightgray;
+    background-color: lightgray;
     border-color: black;
     border-width: .3em;
     text-align: center;
     width: 50%;
-    border-radius:20px;
-    border:solid;
-    position:inherit;
-    margin:1%;
-    padding:1%;
+    border-radius: 20px;
+    border: solid;
+    position: inherit;
+    margin: 1%;
+    padding: 1%;
 }
 
 .studiekeuze {
-    background-color:lightgray;
+    background-color: lightgray;
     border-color: black;
     border-width: .3em;
     text-align: center;
     width: 50%;
-    border-radius:20px;
-    border:solid;
-    position:inherit;
-    margin-top:10%;
-    margin-bottom:1%;
+    border-radius: 20px;
+    border: solid;
+    position: inherit;
+    margin-top: 10%;
+    margin-bottom: 1%;
 }
 
 .programmeerervaring {
@@ -62,66 +63,82 @@
     border-width: .3em;
     text-align: center;
     width: 50%;
-    border-radius:20px;
-    border:solid;
-    position:inherit;
-    margin-top:1%;
-    margin-bottom:1%;
-    padding:1%;
+    border-radius: 20px;
+    border: solid;
+    position: inherit;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 1%;
 }
 
 .studiekeuze img {
-    background-color:lightgray;
-    border-color:black;
+    background-color: lightgray;
+    border-color: black;
     border-width: .3em;
     max-width: 50%;
-    border-radius:20px;
-    border:solid;
-    height:70%;
+    border-radius: 20px;
+    border: solid;
+    height: 70%;
     position: relative;
     right: 3%;
     padding: 3px;
 }
 
-.ictpost {
-    background-color:lightgray;
-    border-color:black;
-    border-width: .3em;
-    text-align: center;
-    max-width: 45%;
-    border-radius:20px;
-    border:solid;
-    position:absolute;
-    left:5%;
-    top:20%
-}
-
 .programmeerervaring img {
-    background-color:lightgray;
-    border-color:black;
+    background-color: lightgray;
+    border-color: black;
     border-width: .3em;
     max-width: 50%;
-    border-radius:20px;
-    border:solid;
-    height:70%;
+    border-radius: 20px;
+    border: solid;
+    height: 70%;
     position: relative;
     right: 3%;
     padding: 3px;
 }
 
 .swot img {
-    background-color:lightgray;
-    border-color:black;
+    background-color: lightgray;
+    border-color: black;
     border-width: .3em;
     max-width: 50%;
-    border-radius:20px;
-    border:solid;
-    height:70%;
+    border-radius: 20px;
+    border: solid;
+    height: 70%;
     position: relative;
     right: 3%;
     padding: 3px;
 }
 
 .blogposts {
-    margin-left:1%;
+    margin-left: 1%;
+}
+
+
+/* css gebruikt in de posts */
+
+.post {
+    background-color: lightgray;
+    border-color: black;
+    border-width: .3em;
+    text-align: center;
+    max-width: 45%;
+    border-radius: 20px;
+    border: solid;
+    position: absolute;
+    left: 5%;
+    top: 20%
+}
+
+.post img {
+    background-color: lightgray;
+    border-color: black;
+    border-width: .3em;
+    max-width: 50%;
+    border-radius: 20px;
+    border: solid;
+    height: 70%;
+    position: relative;
+    right: 3%;
+    padding: 3px;
 }

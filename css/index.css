@@ -1,19 +1,5 @@
 /* ---- Index page layout ---- */
 
-.layoutoverall img {
-    width: 19.75%;
-    transition: width 2s;
-    height: 727px;
-    box-shadow: 0px 0px 20px black;
-    background-color: rgba(0, 0, 0, .6);
-    background-blend-mode: cover;
-    margin-bottom: 0;
-}
-
-.layoutoverall img:hover {
-    height: 735px;
-}
-
 .intro {
     background-color: lightgray;
     border-color: black;
@@ -22,7 +8,6 @@
     max-width: 50%;
     border-radius: 20px;
     border: solid;
-    left: 20%;
     margin-bottom: 40px;
     position: relative;
     right: 25%;
@@ -39,7 +24,7 @@
     border: solid;
     position: absolute;
     left: 3%;
-    top: 130%;
+    top: 150%;
 }
 
 .me2-picture {
@@ -51,6 +36,20 @@
     height: 500px;
     position: absolute;
     right: 3%;
-    top: 115%;
+    top: 125%;
     padding: 3px;
+}
+
+.bos {
+    margin-left: 10%;
+    margin-top: 30%;
+    color: white;
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(0, 0, 0, .6);
+    border: solid;
+    border-radius: 20%;
+    max-width: 10%;
+    padding-left: 1%;
+    padding-right: 1%;
 }
