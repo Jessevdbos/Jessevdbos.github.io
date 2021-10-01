@@ -1,54 +1,31 @@
 /* ---- Profile page design ---- */
 
-.profiletextpersonal {
-    background-color: lightgray;
-    border-color: black;
-    border-width: .3em;
-    text-align: center;
+.profileTextPersonal {
     max-width: 40%;
-    border-radius: 20px;
-    border: solid;
     position: initial;
     margin: 1%;
     top: 20%;
-    padding: 1%;
 }
 
-#me-picture {
-    background-color: lightgray;
-    border-color: black;
-    border-width: .3em;
+#mePicture {
     max-width: 50%;
     max-height: 50%;
-    border-radius: 20px;
-    border: solid;
     position: absolute;
     right: 5%;
     top: 30%;
     padding: .3em;
 }
 
-.profiletexthobby {
-    background-color: lightgray;
-    border-color: black;
-    border-width: .3em;
-    text-align: center;
+.profileTextHobby {
     max-width: 45%;
-    border-radius: 20px;
-    border: solid;
     position: absolute;
     right: 5%;
     top: 110%;
-    padding: 1%;
 }
 
-.league-image {
-    background-color: lightgray;
+.leagueImage {
     width: 40%;
     border-radius: 10%;
-    border-color: black;
-    border-width: .3em;
-    border: solid;
     padding: .3em;
     position: initial;
     margin: 1%;
@@ -56,13 +33,7 @@
 }
 
 .characteristics {
-    background-color: lightgray;
-    border-color: black;
-    border-width: .3em;
-    text-align: center;
     width: 40%;
-    border-radius: 20px;
-    border: solid;
     position: initial;
     margin: 1%;
     top: 80%;
@@ -72,33 +43,23 @@
     text-align: left;
 }
 
-.fateseries {
-    background-color: lightgray;
+.fateSeries {
     max-width: 45%;
     max-height: 45%;
     border-radius: 10%;
-    border-color: black;
-    border-width: .3em;
-    border: solid;
     padding: .3em;
     position: absolute;
     right: 5%;
     top: 160%;
 }
 
-.animelist {
-    background-color: lightgray;
-    border-color: black;
-    border-width: .3em;
-    text-align: center;
+.animeList {
     width: 40%;
-    border-radius: 20px;
-    border: solid;
     position: absolute;
     left: 1%;
-    top: 175%;
+    top: 165%;
 }
 
-.animelist li {
+.animeList li {
     text-align: left;
 }

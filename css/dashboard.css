@@ -13,7 +13,7 @@ aside {
     border-radius: 20px;
 }
 
-.dashboard-main {
+.dashboardMain {
     margin-bottom: 50px;
 }
 
@@ -21,6 +21,6 @@ aside {
     background-color: limegreen;
 }
 
-.notpassed {
+.notPassed {
     background-color: red;
 }
