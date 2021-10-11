@@ -1,5 +1,19 @@
 /* ---- blog page ---- */
 
+section {
+    width: 50%;
+    position: inherit;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.img {
+    max-width: 50%;
+    height: 70%;
+    position: relative;
+    right: 3%;
+}
+
 .blogArticle {
     max-width: 50%;
     margin-left: 1%;
@@ -15,47 +29,6 @@
     left: 40%;
     top: 50%;
     margin-bottom: 1%;
-}
-
-.swot {
-    width: 50%;
-    position: inherit;
-    margin: 1%;
-}
-
-.studiekeuze {
-    width: 50%;
-    position: inherit;
-    margin-top: 10%;
-    margin-bottom: 1%;
-}
-
-.programmeerErvaring {
-    width: 50%;
-    position: inherit;
-    margin-top: 1%;
-    margin-bottom: 1%;
-}
-
-.studiekeuze img {
-    max-width: 50%;
-    height: 70%;
-    position: relative;
-    right: 3%;
-}
-
-.programmeerErvaring img {
-    max-width: 50%;
-    height: 70%;
-    position: relative;
-    right: 3%;
-}
-
-.swot img {
-    max-width: 50%;
-    height: 70%;
-    position: relative;
-    right: 3%;
 }
 
 .blogPosts {
